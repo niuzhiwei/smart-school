@@ -1,0 +1,36 @@
+{
+    "list": [{
+        "num": "1",
+        "studentID": "201901",
+        "idnumber": "2301023909024324",
+        "photo": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555776790351&di=fe7d4dd5ad5a8fe3716dd6da3703f56d&imgtype=0&src=http%3A%2F%2Fupload.cbg.cn%2F2015%2F0514%2F1431612996442.png",
+        "name": "张三",
+        "college": "电气工程",
+        "department": "通信工程",
+        "class": "二年三班",
+        "dormitory": "东区1栋",
+        "roodid": "101"
+    }, {
+        "num": "2",
+        "studentID": "201902",
+        "idnumber": "2301023923423024324",
+        "photo": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555776790351&di=fe7d4dd5ad5a8fe3716dd6da3703f56d&imgtype=0&src=http%3A%2F%2Fupload.cbg.cn%2F2015%2F0514%2F1431612996442.png",
+        "name": "张三",
+        "college": "电气工程",
+        "department": "通信工程",
+        "class": "二年三班",
+        "dormitory": "东区1栋",
+        "roodid": "101"
+    }, {
+        "num": "3",
+        "studentID": "201903",
+        "idnumber": "23010232342324324",
+        "photo": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555776790351&di=fe7d4dd5ad5a8fe3716dd6da3703f56d&imgtype=0&src=http%3A%2F%2Fupload.cbg.cn%2F2015%2F0514%2F1431612996442.png",
+        "name": "张三",
+        "college": "电气工程",
+        "department": "通信工程",
+        "class": "二年三班",
+        "dormitory": "东区1栋",
+        "roodid": "101"
+    }]
+}

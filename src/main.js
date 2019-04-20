@@ -3,21 +3,26 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios';
 import ElementUI from 'element-ui';
+import VCharts from 'v-charts'
 import 'element-ui/lib/theme-chalk/index.css'; // 默认主题
 // import '../static/css/theme-green/index.css';       // 浅绿色主题
 import './assets/css/icon.css';
 import './components/common/directives';
 import "babel-polyfill";
 
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
 Vue.config.productionTip = false
 Vue.use(ElementUI, {
     size: 'small'
 });
+Vue.use(iView);
 Vue.prototype.$axios = axios;
-
+Vue.use(VCharts)
 //使用钩子函数对路由进行权限跳转
 router.beforeEach((to, from, next) => {
     const role = localStorage.getItem('ms_username');
+    console.log(role)
     if (!role && to.path !== '/login') {
         next('/login');
     } else if (to.meta.permission) {

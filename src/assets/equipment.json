@@ -1,0 +1,15 @@
+{
+    "list": [{
+        "rolekey": "admin",
+        "name": "admin",
+        "address": "超级管理员"
+    }, {
+        "rolekey": "editor",
+        "name": "editor",
+        "address": "普通编辑者，可以看到除了权限管理外所有页面"
+    }, {
+        "rolekey": "visitor",
+        "name": "visitor",
+        "address": "普通游客，只能看到主页"
+    }]
+}
